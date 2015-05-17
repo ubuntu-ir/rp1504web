@@ -1,0 +1,217 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+bg-primary{
+background-color:hsl(315, 41%, 26%)
+}
+html{
+   background-image: url(http://ubuntu.ir/images/bg_dotted.png);
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+	direction:rtl;
+}
+
+body {
+    	font-family: 'Droid Arabic Naskh';
+}
+
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+}
+
+/* Custom Button Styles */
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	font-family: 'Droid Arabic Naskh'; !important
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../img/background.jpg) no-repeat center center scroll;
+
+    
+-moz-opacity: 0.6;
+-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* About */
+.about {
+    padding: 50px 0;
+}
+
+/* executive */
+.executive {
+    padding: 50px 0;
+}
+/* sponsers */
+.sponsers {
+    padding: 50px 0;
+}
+
+/* Map */
+.map {
+    height: 500px;
+}
+
+
+/* Footer */
+footer {
+    padding: 100px 0;
+}
+
+
+/*color section*/
+
+.navbar-default .navbar-nav>li>a{
+color:white;
+}
+/*hover section*/
+
+a:hover{
+color:hsl(315, 41%, 26%);
+}
+
+.logo {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+.logo:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+p{
+font-family:'Droid Arabic Naskh';
+text-align:justify;
+}
+.lead {
+  font-size: 20px;
+  font-family: Droid Arabic Naskh;
+  line-height: 31px;
